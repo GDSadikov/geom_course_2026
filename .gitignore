@@ -14,8 +14,13 @@ data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
+!data/processed/hw01/
+!data/processed/hw01/**
 figures/*
 !figures/.gitkeep
+!figures/hw02/
+!figures/hw02/**
 exports/*
 !exports/.gitkeep
-
+!exports/hw01/
+!exports/hw01/**
