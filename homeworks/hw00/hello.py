@@ -1,4 +1,12 @@
-print('Версия Python: "3.14.7"')
-print('Версия NumPy: "2.5.3"')
-print('Версия Pandas: "3.0.5"')
-print('Версия Matplotlib: "3.11.2"')
+import sys
+
+# Импортируем библиотеки, которые мы установили в виртуальное окружение
+import numpy
+import pandas
+import matplotlib
+
+# Выводим версии, запрашивая их напрямую у программ
+print(f"Версия Python: {sys.version.split()[0]}")
+print(f"Версия NumPy: {numpy.__version__}")
+print(f"Версия Pandas: {pandas.__version__}")
+print(f"Версия Matplotlib: {matplotlib.__version__}")
